@@ -1,0 +1,215 @@
+{
+  "contractName": "Equity",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/app/contracts/Equity.sol\":\"Equity\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/app/contracts/Equity.sol\":{\"keccak256\":\"0x8c0f07dce66d4a2047da36b0cd7178a3db497dd4f8958e0b4a5a4b8766ee2eae\",\"urls\":[\"bzz-raw://59bf9da84376f51c534c1b5e0b3ca6444004e2ea5d146ba32218e24da4116118\",\"dweb:/ipfs/QmVT52DRBuEy8ai3vo9zgQWkdxxeY6j4YhYyoXTyueYs8A\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582044a5667efc3564d01aa5110461ffa6542c05bccffb86097a56e09a9071451c3d64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582044a5667efc3564d01aa5110461ffa6542c05bccffb86097a56e09a9071451c3d64736f6c63430005100032",
+  "sourceMap": "66:48:0:-;;;86:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;86:26:0;66:48;;;;;;",
+  "deployedSourceMap": "66:48:0:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Equity {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/app/contracts/Equity.sol",
+  "ast": {
+    "absolutePath": "/app/contracts/Equity.sol",
+    "exportedSymbols": {
+      "Equity": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Equity",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "107:5:0",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "97:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:0:0"
+            },
+            "scope": 6,
+            "src": "86:26:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:48:0"
+      }
+    ],
+    "src": "32:83:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/app/contracts/Equity.sol",
+      "exportedSymbols": {
+        "Equity": [
+          6
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            6
+          ],
+          "name": "Equity",
+          "scope": 7
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 6,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2,
+                "name": "ParameterList",
+                "src": "97:2:0"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3,
+                "name": "ParameterList",
+                "src": "107:0:0"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 4,
+                "name": "Block",
+                "src": "107:5:0"
+              }
+            ],
+            "id": 5,
+            "name": "FunctionDefinition",
+            "src": "86:26:0"
+          }
+        ],
+        "id": 6,
+        "name": "ContractDefinition",
+        "src": "66:48:0"
+      }
+    ],
+    "id": 7,
+    "name": "SourceUnit",
+    "src": "32:83:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-31T16:44:42.061Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
